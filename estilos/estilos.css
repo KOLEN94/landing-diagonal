@@ -1,0 +1,417 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    font-family: 'Lato', sans-serif;
+}
+.enlace {
+    color: #f9f9f9!important;
+    font-weight: 800;
+    padding-left: 25px!important;
+    padding-right: 25px!important;
+}
+.cambio-menu{
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    transition: all 0.25s ease;
+}
+.cambio-color{
+    color:#444444!important;
+    
+}
+#inicio {
+    background-image: url('../imagenes/imagen-destini2.jpg');
+    background-size: cover;
+    background-position: center center;
+    padding-top: 25vh;
+    height: 95vh;
+    position: relative;
+    background-color: rgba(0,0,0,0.55);
+    background-blend-mode: soft-light;
+    display: block;
+}
+#inicio::after{
+    content: '';
+    position: absolute;
+    background-image: url('../imagenes/Skew02.png');
+    background-size: 100% 100%;
+    height: 120px;
+    bottom: 0;
+    width: 100%;
+    display: block;
+}
+.contenido-cabezera h1{
+    text-align: center;
+    font-size: 70px;
+    color: #fff;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.contenido-cabezera p{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    padding-bottom: 35px;
+}
+.btn-alt{
+    padding: 12px 20px;
+    display: inline-block;
+    font-size: 15px;
+    text-transform: CAPITALIZE;
+    line-height: 24px;
+    background: #1c8d6b;
+    margin-right: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    -webkit-transition: 0.4s;
+}
+a:hover{
+    text-decoration: none;
+    color: #f9f9f9;
+}
+#sobrenosotros{
+    padding-top: 75px;
+    text-align: center;
+    padding-bottom: 75px;
+    position: relative;
+    display: block;
+}
+.contenido-sobrenosotros h2{
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 23px;
+}
+.contenido-sobrenosotros p{
+    padding-bottom: 50px;
+}
+.tarjeta {
+    border: none;
+}
+.tarjeta:hover{
+    box-shadow: 0 5px 25px 0 rgba(5, 5, 5, 0.2);
+    transition: all 0.25s ease;
+}
+.imagen-carta ion-icon{
+    font-size: 65px;
+    padding-top: 20px;
+    color: #4776e6;
+}
+.card-title {
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 18px;
+    color: #606060;
+}
+.card-text {
+    line-height: 1.86;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+}
+#equipo{
+    padding-top: 175px;
+    text-align: center;
+    padding-bottom: 185px;
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    position: relative;
+    display: block;
+}
+.seccion-equipos {
+    color: #fff;
+    
+}
+.seccion-equipos h2 {
+    font-size: 36px;
+    padding-bottom: 50px;
+}
+.miembro{
+    background: none;
+    border: none;
+    box-shadow: 0px 0px 5px #6f6f6f94;
+    padding: 20px;
+}
+.miembro-datos h5 , .miembro-datos p{
+    color: #f9f9f9;
+}
+.imagen-miembro img{
+    display: block;
+    max-width: 75%;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#equipo:before{
+    content: '';
+    position: absolute;
+    background: url(../imagenes/Skew01.png) bottom;
+    background-size: 100% 100%;
+    height: 120px;
+    top: 0;
+    width: 100%;
+    display: block;
+}
+#clientes{
+    padding-top: 75px;
+    text-align: center;
+    padding-bottom: 75px;
+    position: relative;
+    display: block;
+}
+#clientes h2 {
+    padding-bottom: 40px;
+}
+#equipo::after{
+    content: '';
+    position: absolute;
+    background-image: url('../imagenes/Skew02.png');
+    background-size: 100% 100%;
+    height: 120px;
+    bottom: 0;
+    width: 100%;
+    display: block;
+}
+.titulo-testimonio{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.slider-testimonios {
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-container p{
+    color: #757575;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 300;
+    font-style: italic;
+}
+.testimonial-user {
+    max-width: 240px;
+    margin: 0 auto;
+    text-align: left;
+}
+.testimonial-user h6 {
+    margin-bottom: 0px;
+}
+.testimonial-user span {
+    font-size: 12px;
+}
+.carousel-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.testimonial-user img {
+    border-radius: 50%;
+    max-width: 50px;
+    text-align: center;
+}
+.carousel-control-prev, .carousel-control-next  {
+    color:rgb(14, 13, 13);
+    font-size: 50px;
+}
+.carousel-control-prev:hover{
+    color: #000;
+}
+.carousel-control-prev:active{
+    color: #000;
+}
+.carousel-control-next:hover{
+    color: #000;
+}
+.carousel-control-next:active{
+    color: #000;
+}
+.boton-control img {
+    max-width: 55%;
+}
+/*#clientes::before{
+    content: '';
+    position: absolute;
+    background-image: url('../imagenes/Skew01.png');
+    background-size: 100% 100%;
+    height: 120px;
+    bottom: 0;
+    width: 100%;
+    display: block;
+}*/
+#contacto {
+    padding-top: 75px;
+    text-align: center;
+    padding-bottom: 175px;
+    position: relative;
+    display: block;
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+#grilla-iconos {
+    padding-top: 175px;
+    text-align: center;
+    padding-bottom: 185px;
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    position: relative;
+    display: block;
+}
+.titulo-grilla h2 {
+    color: #fff;
+    font-size: 32px;
+    padding-bottom: 50px;
+}
+.icono-grilla{
+    background: none;
+    border: none;
+    box-shadow: 0px 0px 5px #6f6f6f94;
+    padding: 20px;
+    margin: 20px;
+}
+.icono-ejemplo ion-icon {
+    font-size: 150px;
+    color: #fff;
+}
+
+#grilla-iconos::before{
+    content: '';
+    position: absolute;
+    background: url('../imagenes/Skew01.png') bottom;
+    background-size: 100% 100%;
+    height: 120px;
+    top: 0;
+    width: 100%;
+    display: block;
+}
+#grilla-iconos::after{
+    content: '';
+    position: absolute;
+    background-image: url('../imagenes/Skew02.png');
+    background-size: 100% 100%;
+    height: 120px;
+    bottom: 0;
+    width: 100%;
+    display: block;
+}
+.titulo-contacto{
+    font-size: 2.8em;
+    text-align: center;
+    font-weight: 300;
+    color: #66615b;
+}
+#footer{
+    padding-top: 75px;
+    text-align: center;
+    padding-bottom: 75px;
+    position: relative;
+    display: block;
+}
+.titulo-footer{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.social li {
+    font-size: 44px;
+   
+}
+@media only screen and (max-width: 768px){
+    #inicio:after {
+        content: '';
+        position: absolute;
+        background: url(../imagenes/Skew02.png) bottom;
+        height: 100px;
+        bottom: 0;
+        width: 100%;
+        display: block;
+    }
+    #equipo:before{
+        content: '';
+        position: absolute;
+        background: url(../imagenes/Skew01.png) bottom;
+        height: 100px;
+        top: 0;
+        width: 100%;
+        display: block;
+    }
+    #equipo:after {
+        content: '';
+        position: absolute;
+        background: url(../imagenes/Skew02.png) bottom;
+        height: 100px;
+        bottom: 0;
+        width: 100%;
+        display: block;
+    }
+    #grilla-iconos:before{
+        content: '';
+        position: absolute;
+        background: url(../imagenes/Skew01.png) bottom;
+        height: 100px;
+        top: 0;
+        width: 100%;
+        display: block;
+    }
+    #grilla-iconos:after {
+        content: '';
+        position: absolute;
+        background: url(../imagenes/Skew02.png) bottom;
+        height: 100px;
+        bottom: 0;
+        width: 100%;
+        display: block;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .menuprincipal{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .bsnav-mobile .navbar {
+        background:linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    }
+    .contenido-cabezera h1 {
+        font-size: 45px;
+    }
+    .contenido-cabezera p {
+        font-size: 15px;
+    }
+    .btn-alt {
+        font-size: 11px;
+        line-height: 12px;
+        padding: 12px 15px;
+    }
+    .contenido-sobrenosotros h2{
+        font-size: 32px;
+    }
+    .contenido-sobrenosotros>p{
+        font-size: 12px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .card-text {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 11px;
+    }
+    .seccion-equipos h2 {
+        font-size: 32px;
+    }
+    .miembro {
+        padding: 32px;
+        margin: 15px;
+    }
+    .imagen-miembro img {
+        max-width: 35%;
+    }
+    .carousel-container p{
+        font-size: 12px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .social li{
+        font-size: 25px;
+    }
+    .creditos{
+        font-size: 10px;
+    }
+}
